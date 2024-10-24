@@ -7,7 +7,7 @@ function App() {
     const [players, setPlayers] = useState(null);
 
     const getPlayerData = () => {
-        fetch("./data/player-data.json")
+        fetch("data/player-data.json")
             .then((response) => response.json())
             .then((data) => setPlayers(data))
             .catch((error) => console.log("Error fetching data", error))
