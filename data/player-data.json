@@ -1,0 +1,182 @@
+[
+  {
+    "image": "https://i.ibb.co.com/G2yrpC4/Shakib-Al-Hasan.jpg",
+    "name": "Shakib Al Hasan",
+    "primaryRole": "All-Rounder",
+    "subRole": "Left-Arm Spin",
+    "price": "500,000",
+    "rating": 9.5,
+    "country": "Bangladesh"
+  },
+  {
+    "image": "https://i.ibb.co.com/F7rZCCV/Virat-Kohli.jpg",
+    "name": "Virat Kohli",
+    "primaryRole": "Batsman",
+    "subRole": "Right-Handed",
+    "price": "600,000",
+    "rating": 9.8,
+    "country": "India"
+  },
+  {
+    "image": "https://i.ibb.co.com/FspxWvv/Jasprit-Bumrah.jpg",
+    "name": "Jasprit Bumrah",
+    "primaryRole": "Bowler",
+    "subRole": "Right-Arm Fast",
+    "price": "550,000",
+    "rating": 9.2,
+    "country": "India"
+  },
+  {
+    "image": "https://i.ibb.co.com/n66Qv5B/Babar-Azam.jpg",
+    "name": "Babar Azam",
+    "primaryRole": "Batsman",
+    "subRole": "Right-Handed",
+    "price": "620,000",
+    "rating": 9.7,
+    "country": "Pakistan"
+  },
+  {
+    "image": "https://i.ibb.co.com/61nn4pk/Ben-Stokes.jpg",
+    "name": "Ben Stokes",
+    "primaryRole": "All-Rounder",
+    "subRole": "Right-Arm Fast-Medium",
+    "price": "580,000",
+    "rating": 9.4,
+    "country": "England"
+  },
+  {
+    "image": "https://i.ibb.co.com/FXcV90H/Trent-Boult.jpg",
+    "name": "Trent Boult",
+    "primaryRole": "Bowler",
+    "subRole": "Left-Arm Fast",
+    "price": "540,000",
+    "rating": 9.1,
+    "country": "New Zealand"
+  },
+  {
+    "image": "https://i.ibb.co.com/JxsVT5K/Rashid-Khan.webp",
+    "name": "Rashid Khan",
+    "primaryRole": "Bowler",
+    "subRole": "Right-Arm Leg Spin",
+    "price": "530,000",
+    "rating": 9.6,
+    "country": "Afghanistan"
+  },
+  {
+    "image": "https://i.ibb.co.com/XsGY58h/David-Warner.webp",
+    "name": "David Warner",
+    "primaryRole": "Batsman",
+    "subRole": "Left-Handed",
+    "price": "600,000",
+    "rating": 9.3,
+    "country": "Australia"
+  },
+  {
+    "image": "https://i.ibb.co.com/DGyq9dc/Glenn-Maxwell.webp",
+    "name": "Glenn Maxwell",
+    "primaryRole": "All-Rounder",
+    "subRole": "Right-Arm Off-Spin",
+    "price": "530,000",
+    "rating": 9.0,
+    "country": "Australia"
+  },
+  {
+    "image": "https://i.ibb.co.com/C1P5KdP/Kane-Williamson.webp",
+    "name": "Kane Williamson",
+    "primaryRole": "Batsman",
+    "subRole": "Right-Handed",
+    "price": "580,000",
+    "rating": 9.4,
+    "country": "New Zealand"
+  },
+  {
+    "image": "https://i.ibb.co.com/K7BZjR1/Pat-Cummins.jpg",
+    "name": "Pat Cummins",
+    "primaryRole": "Bowler",
+    "subRole": "Right-Arm Fast",
+    "price": "550,000",
+    "rating": 9.1,
+    "country": "Australia"
+  },
+  {
+    "image": "https://i.ibb.co.com/tcsLL64/Joe-Root.webp",
+    "name": "Joe Root",
+    "primaryRole": "Batsman",
+    "subRole": "Right-Handed",
+    "price": "520,000",
+    "rating": 8.9,
+    "country": "England"
+  },
+  {
+    "image": "https://i.ibb.co.com/nQjBPc8/Quinton-de-Kock.jpg",
+    "name": "Quinton de Kock",
+    "primaryRole": "Batsman",
+    "subRole": "Left-Handed",
+    "price": "520,000",
+    "rating": 9.0,
+    "country": "South Africa"
+  },
+  {
+    "image": "https://i.ibb.co.com/XY0fbsQ/Moeen-Ali.jpg",
+    "name": "Moeen Ali",
+    "primaryRole": "All-Rounder",
+    "subRole": "Right-Arm Off-Spin",
+    "price": "500,000",
+    "rating": 8.8,
+    "country": "England"
+  },
+  {
+    "image": "https://i.ibb.co.com/hBcnYNH/Faf-du-Plessis.jpg",
+    "name": "Faf du Plessis",
+    "primaryRole": "Batsman",
+    "subRole": "Right-Handed",
+    "price": "530,000",
+    "rating": 8.9,
+    "country": "South Africa"
+  },
+  {
+    "image": "https://i.ibb.co.com/8rswG3c/Shaheen-Afridi.webp",
+    "name": "Shaheen Afridi",
+    "primaryRole": "Bowler",
+    "subRole": "Left-Arm Fast",
+    "price": "550,000",
+    "rating": 9.3,
+    "country": "Pakistan"
+  },
+  {
+    "image": "https://i.ibb.co.com/wNGvgGt/KL-Rahul.jpg",
+    "name": "KL Rahul",
+    "primaryRole": "Batsman",
+    "subRole": "Right-Handed",
+    "price": "550,000",
+    "rating": 9.1,
+    "country": "India"
+  },
+  {
+    "image": "https://i.ibb.co.com/wry0wfr/Mitchell-Starc.jpg",
+    "name": "Mitchell Starc",
+    "primaryRole": "Bowler",
+    "subRole": "Left-Arm Fast",
+    "price": "600,000",
+    "rating": 9.5,
+    "country": "Australia"
+  },
+  {
+    "image": "https://i.ibb.co.com/BNy6HK7/Rohit-Sharma.webp",
+    "name": "Rohit Sharma",
+    "primaryRole": "Batsman",
+    "subRole": "Right-Handed",
+    "price": "610,000",
+    "rating": 9.7,
+    "country": "India"
+  },
+  {
+    "image": "https://i.ibb.co.com/0tQJwCd/Andre-Russell.jpg",
+    "name": "Andre Russell",
+    "primaryRole": "All-Rounder",
+    "subRole": "Right-Arm Fast-Medium",
+    "price": "590,000",
+    "rating": 9.4,
+    "country": "West Indies"
+  }
+]
