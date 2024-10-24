@@ -1,7 +1,7 @@
 import {RiUser3Fill} from "react-icons/ri";
 import {FaFlag} from "react-icons/fa";
 
-export default function PlayerCard({image, name, price, primaryRole, subRole, rating, country}) {
+export default function PlayerCard({image, name, price, primaryRole, subRole, rating, country, handleSelectedPlayers}) {
     return (
         <div className="card bg-base-100 border border-gray-200">
             <figure className="px-4 pt-4">
@@ -43,7 +43,11 @@ export default function PlayerCard({image, name, price, primaryRole, subRole, ra
                     </div>
                 </div>
                 <div className="card-actions">
-                    <button className="btn btn-neutral btn-block">Choose Player</button>
+                    <button
+                        className="btn btn-neutral btn-block"
+                        onClick={() => handleSelectedPlayers(name, subRole, image)}
+                    >Choose Player
+                    </button>
                 </div>
             </div>
         </div>
