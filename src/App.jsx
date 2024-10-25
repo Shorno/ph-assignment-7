@@ -21,17 +21,30 @@ function App() {
         getPlayerData()
     }, [])
 
-
     const handleSelectedPlayers = (name, subRole, image, price) => {
-        const newSelectedPlayer = {name: name, subRole: subRole, image: image, price: price};
-        setSelectedPlayers([...selectedPlayers, newSelectedPlayer]);
 
-        if (price >= coins){
+        if (selectedPlayers.length >= 6) {
+            toast.warning("Maximum player already selected")
+            return;
+        }
+
+        if (selectedPlayers.some(player => player.name === name)) {
+            toast.warning("Player already selected")
+            return;
+        }
+
+        if (price > coins) {
             toast.warning("Not Enough Coins")
             return
         }
 
-        setCoins((prevState) =>  prevState - price);
+        const newSelectedPlayer = {name: name, subRole: subRole, image: image, price: price};
+        setSelectedPlayers([...selectedPlayers, newSelectedPlayer]);
+
+
+        toast.success(`${name} is added`)
+
+        setCoins((prevState) => prevState - price);
     }
 
     const handleAddCoin = () => {
@@ -51,7 +64,7 @@ function App() {
                     setView={setView}
 
                 />
-                <ToastContainer position={"top-center"} />
+                <ToastContainer position={"top-center"}/>
             </main>
         </>
     )

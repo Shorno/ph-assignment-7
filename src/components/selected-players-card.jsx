@@ -1,6 +1,8 @@
 import { FaTrashAlt } from "react-icons/fa";
 
 export default function SelectedPlayersCard({selectedPlayer}) {
+
+
     return (
         <>
             <div className="card bg-base-100 border border-gray-200 py-2s">
@@ -15,6 +17,7 @@ export default function SelectedPlayersCard({selectedPlayer}) {
                         <div className={"flex flex-col"}>
                             <p className={"text-2xl font-semibold"}>{selectedPlayer.name}</p>
                             <p className={"text-gray-500"}>{selectedPlayer.subRole}</p>
+                            <p className={"font-semibold"}>${selectedPlayer.price}</p>
                         </div>
                     </div>
                     <FaTrashAlt fill={"red"}/>
