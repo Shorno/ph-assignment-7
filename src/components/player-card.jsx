@@ -45,7 +45,7 @@ export default function PlayerCard({image, name, price, primaryRole, subRole, ra
                 <div className="card-actions">
                     <button
                         className="btn btn-neutral btn-block"
-                        onClick={() => handleSelectedPlayers(name, subRole, image)}
+                        onClick={() => handleSelectedPlayers(name, subRole, image, price)}
                     >Choose Player
                     </button>
                 </div>

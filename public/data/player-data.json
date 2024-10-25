@@ -4,7 +4,7 @@
     "name": "Shakib Al Hasan",
     "primaryRole": "All-Rounder",
     "subRole": "Left-Arm Spin",
-    "price": "500,000",
+    "price": 500000,
     "rating": 9.5,
     "country": "Bangladesh"
   },
@@ -13,7 +13,7 @@
     "name": "Virat Kohli",
     "primaryRole": "Batsman",
     "subRole": "Right-Handed",
-    "price": "600,000",
+    "price": 600000,
     "rating": 9.8,
     "country": "India"
   },
@@ -22,7 +22,7 @@
     "name": "Jasprit Bumrah",
     "primaryRole": "Bowler",
     "subRole": "Right-Arm Fast",
-    "price": "550,000",
+    "price": 550000,
     "rating": 9.2,
     "country": "India"
   },
@@ -31,7 +31,7 @@
     "name": "Babar Azam",
     "primaryRole": "Batsman",
     "subRole": "Right-Handed",
-    "price": "620,000",
+    "price": 620000,
     "rating": 9.7,
     "country": "Pakistan"
   },
@@ -40,7 +40,7 @@
     "name": "Ben Stokes",
     "primaryRole": "All-Rounder",
     "subRole": "Right-Arm Fast-Medium",
-    "price": "580,000",
+    "price": 580000,
     "rating": 9.4,
     "country": "England"
   },
@@ -49,7 +49,7 @@
     "name": "Trent Boult",
     "primaryRole": "Bowler",
     "subRole": "Left-Arm Fast",
-    "price": "540,000",
+    "price": 540000,
     "rating": 9.1,
     "country": "New Zealand"
   },
@@ -58,7 +58,7 @@
     "name": "Rashid Khan",
     "primaryRole": "Bowler",
     "subRole": "Right-Arm Leg Spin",
-    "price": "530,000",
+    "price": 530000,
     "rating": 9.6,
     "country": "Afghanistan"
   },
@@ -67,7 +67,7 @@
     "name": "David Warner",
     "primaryRole": "Batsman",
     "subRole": "Left-Handed",
-    "price": "600,000",
+    "price": 600000,
     "rating": 9.3,
     "country": "Australia"
   },
@@ -76,7 +76,7 @@
     "name": "Glenn Maxwell",
     "primaryRole": "All-Rounder",
     "subRole": "Right-Arm Off-Spin",
-    "price": "530,000",
+    "price": 530000,
     "rating": 9.0,
     "country": "Australia"
   },
@@ -85,7 +85,7 @@
     "name": "Kane Williamson",
     "primaryRole": "Batsman",
     "subRole": "Right-Handed",
-    "price": "580,000",
+    "price": 580000,
     "rating": 9.4,
     "country": "New Zealand"
   },
@@ -94,7 +94,7 @@
     "name": "Pat Cummins",
     "primaryRole": "Bowler",
     "subRole": "Right-Arm Fast",
-    "price": "550,000",
+    "price": 550000,
     "rating": 9.1,
     "country": "Australia"
   },
@@ -103,7 +103,7 @@
     "name": "Joe Root",
     "primaryRole": "Batsman",
     "subRole": "Right-Handed",
-    "price": "520,000",
+    "price": 520000,
     "rating": 8.9,
     "country": "England"
   },
@@ -112,7 +112,7 @@
     "name": "Quinton de Kock",
     "primaryRole": "Batsman",
     "subRole": "Left-Handed",
-    "price": "520,000",
+    "price": 520000,
     "rating": 9.0,
     "country": "South Africa"
   },
@@ -121,7 +121,7 @@
     "name": "Moeen Ali",
     "primaryRole": "All-Rounder",
     "subRole": "Right-Arm Off-Spin",
-    "price": "500,000",
+    "price": 500000,
     "rating": 8.8,
     "country": "England"
   },
@@ -130,7 +130,7 @@
     "name": "Faf du Plessis",
     "primaryRole": "Batsman",
     "subRole": "Right-Handed",
-    "price": "530,000",
+    "price": 530000,
     "rating": 8.9,
     "country": "South Africa"
   },
@@ -139,7 +139,7 @@
     "name": "Shaheen Afridi",
     "primaryRole": "Bowler",
     "subRole": "Left-Arm Fast",
-    "price": "550,000",
+    "price": 550000,
     "rating": 9.3,
     "country": "Pakistan"
   },
@@ -148,7 +148,7 @@
     "name": "KL Rahul",
     "primaryRole": "Batsman",
     "subRole": "Right-Handed",
-    "price": "550,000",
+    "price": 550000,
     "rating": 9.1,
     "country": "India"
   },
@@ -157,7 +157,7 @@
     "name": "Mitchell Starc",
     "primaryRole": "Bowler",
     "subRole": "Left-Arm Fast",
-    "price": "600,000",
+    "price": 600000,
     "rating": 9.5,
     "country": "Australia"
   },
@@ -166,7 +166,7 @@
     "name": "Rohit Sharma",
     "primaryRole": "Batsman",
     "subRole": "Right-Handed",
-    "price": "610,000",
+    "price": 610000,
     "rating": 9.7,
     "country": "India"
   },
@@ -175,7 +175,7 @@
     "name": "Andre Russell",
     "primaryRole": "All-Rounder",
     "subRole": "Right-Arm Fast-Medium",
-    "price": "590,000",
+    "price": 590000,
     "rating": 9.4,
     "country": "West Indies"
   }
