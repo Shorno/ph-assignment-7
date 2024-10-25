@@ -2,6 +2,8 @@ import Navbar from "./components/navbar.jsx";
 import Hero from "./components/hero.jsx";
 import {useEffect, useState} from "react";
 import PlayerList from "./components/player-list..jsx";
+import {toast, ToastContainer} from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
     const [players, setPlayers] = useState(null);
@@ -25,7 +27,7 @@ function App() {
         setSelectedPlayers([...selectedPlayers, newSelectedPlayer]);
 
         if (price >= coins){
-            alert("Not enough coins")
+            toast.warning("Not Enough Coins")
             return
         }
 
@@ -49,6 +51,7 @@ function App() {
                     setView={setView}
 
                 />
+                <ToastContainer position={"top-center"} />
             </main>
         </>
     )
