@@ -10,11 +10,15 @@ export default function SelectedPlayerList({selectedPlayers, handleDeletePlayer,
                                          handleDeletePlayer={handleDeletePlayer}/>
                 ))}
 
-               <div className={"border border-gray-200 w-fit p-2 rounded-xl"}>
-                   {
-                       selectedPlayers.length > 0 && <button onClick={() => setView("available")} className={"btn bg-yellow-300 text-black"}>Add More Player</button>
-                   }
-               </div>
+                {
+                    selectedPlayers.length > 0 &&
+                    <div className={"border border-gray-200 w-fit p-2 rounded-xl"}>
+                        <button onClick={() => setView("available")} className={"btn bg-yellow-300 text-black"}>Add More
+                            Player
+                        </button>
+                    </div>
+                }
+
             </div>
         </>
     )

@@ -4,7 +4,7 @@ import Logo from "../assets/logo.png"
 export default function Navbar({coins}) {
     return (
         <>
-            <nav className={"sticky top-0 z-50 bg-base-300 backdrop-blur-lg"}>
+            <nav className={"sticky top-0 z-50 bg-base-200/50 backdrop-blur-2xl"}>
                 <div className={"flex justify-between items-center container mx-auto py-4  px-4 md:px-0 "}>
                     <div>
                         <img src={Logo} alt="site logo"/>
