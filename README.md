@@ -1,8 +1,14 @@
-# React + Vite
+# Player Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+The Player Management System is a web application that allows users to manage a list of players. Users can toggle between available and selected players, add new players to their selection, and remove players from their selection. The application also includes a coin management system to simulate player purchases.
 
-Currently, two official plugins are available:
+## Technologies Used
+- React
+- Tailwind CSS
+- React Toastify
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Features
+1. **Toggle Between Views**: Easily switch between available and selected players using a simple button interface.
+2. **Player Selection**: Add players to your selection with a single click, with validation to prevent duplicate selections and ensure sufficient coins.
+3. **Coin Management**: Manage your coins effectively, with the ability to add more coins and see real-time updates as you select players.

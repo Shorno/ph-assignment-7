@@ -7,13 +7,13 @@ export default function ButtonGroup({view, setView, selectedPlayers}) {
                 </p>
                 <div className={"flex border border-gray-200 rounded-r-lg rounded-l-lg md:font-semibold"}>
                     <button
-                        className={`py-2 px-2 md:px-4 rounded-l-lg ${view === "available" ? "bg-yellow-300" : null}`}
+                        className={`py-2 px-2 md:px-4 rounded-l-lg ${view === "available" ? "bg-yellow-300 text-black" : "text-gray-500"}`}
                         onClick={() => setView("available")}
                     >
                         Available
                     </button>
                     <button
-                        className={`py-2 px-2 md:px-4 rounded-r-lg ${view === "selected" ? "bg-yellow-300" : null}`}
+                        className={`py-2 px-2 md:px-4 rounded-r-lg ${view === "selected" ? "bg-yellow-300" : "text-gray-500"}`}
                         onClick={() => setView("selected")}
                     >
                         Selected ({selectedPlayers.length})

@@ -1,6 +1,6 @@
 import { FaTrashAlt } from "react-icons/fa";
 
-export default function SelectedPlayersCard({selectedPlayer}) {
+export default function SelectedPlayersCard({selectedPlayer, handleDeletePlayer}) {
 
 
     return (
@@ -20,7 +20,11 @@ export default function SelectedPlayersCard({selectedPlayer}) {
                             <p className={"font-semibold"}>${selectedPlayer.price}</p>
                         </div>
                     </div>
-                    <FaTrashAlt fill={"red"}/>
+                    <FaTrashAlt
+                        onClick={()=>handleDeletePlayer(selectedPlayer.name)}
+                        className={"cursor-pointer"}
+                        fill={"red"}
+                    />
                 </div>
             </div>
         </>

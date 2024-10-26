@@ -4,9 +4,9 @@ export default function Footer() {
     return (
         <>
             <footer className="bg-slate-900 text-white/75 p-10 relative sm:pt-[28rem] md:pt-96 flex flex-col items-center">
-                <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[90%] sm:w-[80%] md:w-1/2 rounded-3xl p-4 sm:p-6 md:p-8 border border-gray-200">
+                <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[90%] sm:w-[80%] md:w-1/2 rounded-3xl p-4 sm:p-6 md:p-8 border border-white">
                     <div
-                        className="bg-white h-80 sm:h-88 md:h-96 z-30 border border-gray-200 bg-cover bg-center bg-no-repeat rounded-2xl"
+                        className="bg-white h-80 sm:h-88 md:h-96 border border-gray-200 bg-cover bg-center bg-no-repeat rounded-2xl"
                         style={{backgroundImage: `url(${BannerBackground})`}}
                     >
                         <div className="relative z-10 flex h-full items-center justify-center flex-col py-4 sm:py-6 md:py-8 gap-2 sm:gap-3 md:gap-4 px-4 sm:px-6 md:px-8">

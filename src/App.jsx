@@ -52,6 +52,14 @@ function App() {
         setCoins((prevState) => prevState + 100000)
     }
 
+    const handleDeletePlayer = (name) => {
+        setSelectedPlayers((prevSelectedPlayers) =>
+            prevSelectedPlayers.filter((player) => player.name !== name))
+
+        toast.success(`${name} removed from team`)
+    }
+
+
     return (
         <>
             <Navbar coins={coins}/>
@@ -63,6 +71,7 @@ function App() {
                     selectedPlayers={selectedPlayers}
                     view={view}
                     setView={setView}
+                    handleDeletePlayer={handleDeletePlayer}
 
                 />
             </main>
