@@ -4,6 +4,7 @@ import {useEffect, useState} from "react";
 import PlayerList from "./components/player-list..jsx";
 import {toast, ToastContainer} from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Footer from "./components/footer.jsx";
 
 function App() {
     const [players, setPlayers] = useState(null);
@@ -29,7 +30,7 @@ function App() {
         }
 
         if (selectedPlayers.some(player => player.name === name)) {
-            toast.warning("Player already selected")
+            toast.warning(`${name} already selected`)
             return;
         }
 
@@ -53,8 +54,8 @@ function App() {
 
     return (
         <>
+            <Navbar coins={coins}/>
             <main className={"container mx-auto"}>
-                <Navbar coins={coins}/>
                 <Hero handleAddCoin={handleAddCoin}/>
                 <PlayerList
                     players={players}
@@ -64,8 +65,9 @@ function App() {
                     setView={setView}
 
                 />
-                <ToastContainer position={"top-center"}/>
             </main>
+            <ToastContainer position={"top-center"}/>
+            <Footer/>
         </>
     )
 }

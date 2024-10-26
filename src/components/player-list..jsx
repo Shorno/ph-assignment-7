@@ -5,14 +5,16 @@ import SelectedPlayerList from "./selected-player-list.jsx";
 export default function PlayerList({players, selectedPlayers, handleSelectedPlayers, view, setView}) {
     return (
         <>
-            <ButtonGroup view={view} setView={setView} selectedPlayers={selectedPlayers} />
+            <div className={"pb-64"}>
+                <ButtonGroup view={view} setView={setView} selectedPlayers={selectedPlayers} />
 
-            {
-                view === "available" ?
-                    <AvailablePlayerList players={players} handleSelectedPlayers={handleSelectedPlayers}/>
-                    :
-                    <SelectedPlayerList selectedPlayers={selectedPlayers}/>
-            }
+                {
+                    view === "available" ?
+                        <AvailablePlayerList players={players} handleSelectedPlayers={handleSelectedPlayers}/>
+                        :
+                        <SelectedPlayerList selectedPlayers={selectedPlayers}/>
+                }
+            </div>
         </>
     )
 }
